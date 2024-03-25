@@ -172,9 +172,6 @@ span {
         width: 37px;
         text-align: center;
     }
-    .line {
-        width: 300px;
-    }
     .premium .container .row .right .d-flex .img-2 {
         padding: 8px 6px;
     }
@@ -186,11 +183,6 @@ span {
     }
     .footer .container-fluid .row input{
         width: 250px;
-    }
-}
-@media (max-width:320px) {
-    .line{
-        width: 260px;
     }
 }
 /* Courses */
