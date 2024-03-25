@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+/* Font Face */
+@font-face {
+    font-family: roboto;
+    src: url('Assets/FONTS/Roboto-Regular.ttf');
+}
+/* Hero */
+.hero{
+    background-color: rgba(253, 248, 238, 1);
+}
+/* Navbar */
+.navbar-brand p {
+    font-size: 18px;
+    display: inline;
+}
+ nav .collapse form button{
+    background-color: rgba(77, 44, 94, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    margin-left: 20px;
+}
+.container .row .text button{
+    background-color: rgba(77, 44, 94, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    margin-left: 120px;
+}
+.container .row .text p {
+    font-size: 15px;
+    color: black;
+}
+span {
+    color: rgb(255, 116, 38);
+}
+.container .row .text input{
+    border: none;
+    width: 400px;
+    border-radius: 50px;
+}
+.container .row .text i{
+    font-size: 24px;
+    margin-top: 19px;
+    position: absolute;
+    left: 30px;
+}
+/* Our Process */
+.process .container{
+    background-color: rgba(77, 44, 94, 1);
+    position: relative;
+    bottom: 45px;
+}
+.process .container .row .text-1 p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.process .container .row .text-1 h6 {
+    color: rgba(255, 255, 255, 1);
+}
+.process .container .row .img{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 80px;
+}
+/* Our Tracks */
+.tracks .card .card-body .d-flex h6 {
+    font-size: 14px;
+} 
+.tracks .container .row .card {
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px 6px rgba(138, 138, 138, 0.678);
+}
+.tracks .container .row .card .card-body .price {
+    color: rgba(255, 116, 38, 1);
+    font-size: 18px;
+}
+.tracks .container .row .card .card-body .d-flex img {
+    position: relative;
+    bottom: 7px;
+}
+.tracks .container .row .card .card-body button {
+    background-color: rgba(255, 116, 38, 1);
+    width: 100%;
+    color: white;
+}
+/* Premium Learning */
+.premium {
+    background-color: rgba(253, 248, 238, 1);
+}
+.premium .container .row .right .d-flex .img-2 {
+    background: rgba(77, 44, 94, 1);
+    border-radius: 17px;
+    width: 60px;
+    height: 55px;
+    padding: 8px 0px 0px 10px;
+}
+/* footer */
+.footer .container-fluid {
+    background-color: rgba(77, 44, 94, 1);
+}
+.footer .container-fluid .row p {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+}
+.footer .container-fluid .row input {
+    width: 350px;
+    height: 60px;
+    border: none;
+    padding-left: 30px;
+    border-radius: 30px;
+}
+.footer .container-fluid .row button {
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 116, 38, 1);
+    color: white;
+}
+.footer .container-fluid .row h2{
+    color: white;
+}
+@media (max-width:992px) {
+    .container .row .text i{
+        display: none;
+    }
+    .container .row .text button{
+        margin-left: 260px;
+        display: block;
+    }
+}
+@media (max-width:576px) {
+    .container .row .main-img img{
+        width: 250px;
+        margin-top: 20px;
+    }
+    .container .row .text input {
+        width: 300px;
+    }
+    .container .row .text button {
+        margin-left: 30%;
+    }
+    .courses .container .row .two-side {
+        width: 400px;
+    }
+}
+@media (max-width:388px) {
+    .container .row .text input {
+        width: 280px;
+        padding: 0px 10px;
+    }
+    .process .container .row .text-1 h6 {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .process .container .row .text-1 p {
+        font-size: 11px;
+    }
+    .process .container .row .img {
+        height: 60px;
+    }
+    .process .container .row .img img {
+        width: 37px;
+        text-align: center;
+    }
+    .line {
+        width: 300px;
+    }
+    .premium .container .row .right .d-flex .img-2 {
+        padding: 8px 6px;
+    }
+    .footer .container-fluid .row h2  {
+        font-size: 25px;
+    }
+    .footer .container-fluid .row p{
+        font-size: 14px;
+    }
+    .footer .container-fluid .row input{
+        width: 250px;
+    }
+}
+@media (max-width:320px) {
+    .line{
+        width: 260px;
+    }
+}
+/* Courses */
+.courses .container {
+    background: rgba(29, 33, 47, 1);
+    border-radius: 20px;
+}
+.courses .container .row .one-side h2,.courses .container .row .one-side p {
+    color: white;
+}
+.courses .container .row .one-side button {
+    color: white;
+    background: rgba(245, 134, 52, 1);
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.courses .container .row .two-side iframe {
+    height: 280px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+/* Contact */
+.contact .container {
+    background-color: white;
+}
+.contact .container .row .left {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.contact .row .left h2 {
+    color: white;
+}
+.contact .row .left p {
+    color: rgba(201, 201, 201, 1);
+}
+.contact i {
+    color: white;
+}
+.contact .row .left .icons {
+    margin-top: 80px;
+}
+.contact .icons p>i{
+    margin-right: 20px;
+}
+.contact .row .left .social {
+    margin-top: 100px;
+}
+.social .twitter {
+    background: rgba(27, 27, 27, 1);
+    transition: .5s ease ;
+}
+.contact .social .twitter:hover {
+    background-color: white;
+}
+.twitter:hover i {
+    color: black;
+}
+.contact .right .form-row .col-lg-6 input {
+    border-bottom: 1px solid black;
+}
+.contact .right .form-row .col-lg-6 label {
+    font-size: 16px;
+}
+.contact .right form button {
+    background-color: black;
+    color: white;
+}
