@@ -137,6 +137,9 @@ span {
         margin-left: 260px;
         display: block;
     }
+    .premium .row .left{
+        order: 2;
+    }
 }
 @media (max-width:576px) {
     .container .row .main-img img{
